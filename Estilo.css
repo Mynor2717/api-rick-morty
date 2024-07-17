@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #444;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 30px 40px 30px;
+    background-color: rgb(129, 188, 190);
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 20px;
+}
+
+nav ul li a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+nav h1 {
+    font-size: 40px;
+}
+
+.iconos a{
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.contenedor-tarjeta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 80px;
+}
+
+.tarjeta {
+    height: 380px;
+    width: 300px;
+    margin: 50px;
+    border: 3px solid rgb(129, 188, 190);
+    text-align: center;
+}
+
+.tarjeta img {
+    align-content: center;
+    margin-top: 10px;
+    height: 200px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.contenido-tarjeta h2{
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.contenido-tarjeta p{
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.contenido-tarjeta button {
+    padding: 20px 50px 20px 50px ;
+    background: transparent;
+    color: #fff;
+    border-color: rgb(129, 188, 190) ;
+}
+
+#btnFetchCharacters {
+    padding: 20px 40px 20px 40px;
+}
+
+#characters {
+    height: 200px;
+}
+
+#characters img {
+    width: 200px;
+    height: 100px;
+}
