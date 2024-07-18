@@ -74,7 +74,8 @@ nav h1 {
     padding: 20px 50px 20px 50px ;
     background: transparent;
     color: #fff;
-    border-color: rgb(129, 188, 190) ;
+    border-color: rgb(129, 188, 190);
+    cursor: pointer;
 }
 
 #btnFetchCharacters {
